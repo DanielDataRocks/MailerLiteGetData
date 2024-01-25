@@ -16,7 +16,7 @@ function mailerLiteSubscribers() {
   // Mailer Lite API
   let baseURL = 'https://connect.mailerlite.com/api';
   let subscribers_endpoint = '/subscribers'
-  let limit_per_page = 25
+  let limit_per_page = 100
   let options = {"headers": {
     "Authorization": "Bearer "+ apiKey,
     }};
